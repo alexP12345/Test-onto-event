@@ -1,0 +1,1066 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/CpqnVUDQNXWbMEC5lva7Pv#"
+     xml:base="http://webprotege.stanford.edu/project/CpqnVUDQNXWbMEC5lva7Pv"
+     xmlns:schema="http://schema.org/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/CpqnVUDQNXWbMEC5lva7Pv"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://schema.org/domainIncludes -->
+
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/domainIncludes">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:domainIncludes</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://schema.org/rangeIncludes -->
+
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/rangeIncludes">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:rangeIncludes</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://schema.org/Boolean -->
+
+
+    <rdfs:Datatype rdf:about="http://schema.org/Boolean"/>
+    
+
+
+    <!-- http://schema.org/Date -->
+
+
+    <rdfs:Datatype rdf:about="http://schema.org/Date"/>
+    
+
+
+    <!-- http://schema.org/DateTime -->
+
+
+    <rdfs:Datatype rdf:about="http://schema.org/DateTime"/>
+    
+
+
+    <!-- http://schema.org/Text -->
+
+
+    <rdfs:Datatype rdf:about="http://schema.org/Text"/>
+    
+
+
+    <!-- http://schema.org/url -->
+
+
+    <rdfs:Datatype rdf:about="http://schema.org/url"/>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8tNoChdCurgfihp0M41QmZ -->
+
+
+    <rdfs:Datatype rdf:about="http://webprotege.stanford.edu/R8tNoChdCurgfihp0M41QmZ">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:</rdfs:label>
+    </rdfs:Datatype>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://schema.org/about -->
+
+
+    <owl:ObjectProperty rdf:about="http://schema.org/about">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://schema.org/Thing"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The subject matter of the content.
+Inverse property:&lt;a href=&quot;http://pending.schema.org/subjectOf&quot;&gt;subjectOf&lt;/a&gt;.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:about</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/contributor -->
+
+
+    <owl:ObjectProperty rdf:about="http://schema.org/contributor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://schema.org/Organization"/>
+        <rdfs:range rdf:resource="http://schema.org/Person"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A secondary contributor to the CreativeWork or Event.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:contributor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/description -->
+
+
+    <owl:ObjectProperty rdf:about="http://schema.org/description">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://schema.org/Text"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/doorTime -->
+
+
+    <owl:ObjectProperty rdf:about="http://schema.org/doorTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://schema.org/DateTime"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/eventStatus -->
+
+
+    <owl:ObjectProperty rdf:about="http://schema.org/eventStatus">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://schema.org/EventStatusType"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An eventStatus of an event represents its status; particularly useful when an event is cancelled or rescheduled.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eventStatus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/inLanguage -->
+
+
+    <owl:ObjectProperty rdf:about="http://schema.org/inLanguage">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://schema.org/Language"/>
+        <rdfs:range rdf:resource="http://schema.org/Text"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/isAccessibleForFree -->
+
+
+    <owl:ObjectProperty rdf:about="http://schema.org/isAccessibleForFree">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://schema.org/Boolean"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/location -->
+
+
+    <owl:ObjectProperty rdf:about="http://schema.org/location">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://schema.org/PostalAddress"/>
+        <rdfs:range rdf:resource="http://schema.org/Text"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/name -->
+
+
+    <owl:ObjectProperty rdf:about="http://schema.org/name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://schema.org/Text"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/offers -->
+
+
+    <owl:ObjectProperty rdf:about="http://schema.org/offers">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://schema.org/Offer"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An offer to provide this item—for example, an offer to sell a product, rent the DVD of a movie, perform a service, or give away tickets to an event.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:offers</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/organizer -->
+
+
+    <owl:ObjectProperty rdf:about="http://schema.org/organizer">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://schema.org/Organization"/>
+        <rdfs:range rdf:resource="http://schema.org/Person"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organizer of an Event.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:organizer</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/performer -->
+
+
+    <owl:ObjectProperty rdf:about="http://schema.org/performer">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://schema.org/Organization"/>
+        <rdfs:range rdf:resource="http://schema.org/Person"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A performer at the event—for example, a presenter, musician, musical group or actor. Supersedes &lt;a href=&quot;https://schema.org/performers&quot;&gt; performers &lt;/a&gt;.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:performer</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/previousStartDate -->
+
+
+    <owl:ObjectProperty rdf:about="http://schema.org/previousStartDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://schema.org/DateTime"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/sameAs -->
+
+
+    <owl:ObjectProperty rdf:about="http://schema.org/sameAs">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://schema.org/url"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/startDate -->
+
+
+    <owl:ObjectProperty rdf:about="http://schema.org/startDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://schema.org/Date"/>
+        <rdfs:range rdf:resource="http://schema.org/DateTime"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/subEvent -->
+
+
+    <owl:ObjectProperty rdf:about="http://schema.org/subEvent">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Event that is part of this event. For example, a conference event includes many presentations, each of which is a subEvent of the conference. Supersedes &lt;a href=&quot;https://schema.org/subEvents&quot;&gt; subEvents &lt;/a&gt;.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:subEvent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/typicalAgeRange -->
+
+
+    <owl:ObjectProperty rdf:about="http://schema.org/typicalAgeRange">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://schema.org/Text"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/url -->
+
+
+    <owl:ObjectProperty rdf:about="http://schema.org/url">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/workPerformed -->
+
+
+    <owl:ObjectProperty rdf:about="http://schema.org/workPerformed">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://schema.org/CreativeWork"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9G5bmApiOCBQO325bK2r2z -->
+
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9G5bmApiOCBQO325bK2r2z">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Property"/>
+        <rdfs:domain rdf:resource="http://schema.org/Event"/>
+        <rdfs:range rdf:resource="http://schema.org/Date"/>
+        <rdfs:range rdf:resource="http://schema.org/DateTime"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Property -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#Property">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://schema.org/description -->
+
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/description">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/doorTime -->
+
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/doorTime">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/inLanguage -->
+
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/inLanguage"/>
+    
+
+
+    <!-- http://schema.org/isAccessibleForFree -->
+
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/isAccessibleForFree">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/location -->
+
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/location">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/name -->
+
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/name">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/previousStartDate -->
+
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/previousStartDate">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/sameAs -->
+
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/sameAs">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/startDate -->
+
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/startDate">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/typicalAgeRange -->
+
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/typicalAgeRange">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/url -->
+
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/url">
+        <rdfs:range rdf:resource="http://schema.org/url"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/workPerformed -->
+
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/workPerformed"/>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9G5bmApiOCBQO325bK2r2z -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9G5bmApiOCBQO325bK2r2z">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Property -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#Property">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://schema.org/Boolean -->
+
+
+    <owl:Class rdf:about="http://schema.org/Boolean">
+        <rdfs:subClassOf rdf:resource="http://schema.org/DataType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/BroadcastEvent -->
+
+
+    <owl:Class rdf:about="http://schema.org/BroadcastEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/PublicationEvent"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An over the air or online broadcast event.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:BroadcastEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/BusinessEvent -->
+
+
+    <owl:Class rdf:about="http://schema.org/BusinessEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event type: Business event.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:BusinessEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/ChildrensEvent -->
+
+
+    <owl:Class rdf:about="http://schema.org/ChildrensEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event type: Children&apos;s event.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:ChildrensEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/ContactPoint -->
+
+
+    <owl:Class rdf:about="http://schema.org/ContactPoint">
+        <rdfs:subClassOf rdf:resource="http://schema.org/StructuredValue"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A contact point—for example, a Customer Complaints department.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:ContactPoint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/CourseInstance -->
+
+
+    <owl:Class rdf:about="http://schema.org/CourseInstance">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An instance of a &lt;a class=&quot;localLink&quot; href=&quot;http://schema.org/Course&quot;&gt;Course&lt;/a&gt; which is distinct from other instances because it is offered at a different time or location or through different media or modes of study or to a specific section of students.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:CourseInstance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/CreativeWork -->
+
+
+    <owl:Class rdf:about="http://schema.org/CreativeWork">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Thing"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The most generic kind of creative work, including books, movies, photographs, software programs, etc.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:CreativeWork</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/DanceEvent -->
+
+
+    <owl:Class rdf:about="http://schema.org/DanceEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event type: A social dance.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:DanceEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/DataType -->
+
+
+    <owl:Class rdf:about="http://schema.org/DataType">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The basic data types such as Integers, Strings, etc.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:DataType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Date -->
+
+
+    <owl:Class rdf:about="http://schema.org/Date">
+        <rdfs:subClassOf rdf:resource="http://schema.org/DataType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/DateTime -->
+
+
+    <owl:Class rdf:about="http://schema.org/DateTime">
+        <rdfs:subClassOf rdf:resource="http://schema.org/DataType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/DeliveryEvent -->
+
+
+    <owl:Class rdf:about="http://schema.org/DeliveryEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An event involving the delivery of an item.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:DeliveryEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/EducationEvent -->
+
+
+    <owl:Class rdf:about="http://schema.org/EducationEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event type: Education event.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:EducationEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Enumeration -->
+
+
+    <owl:Class rdf:about="http://schema.org/Enumeration">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Intangible"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lists or enumerations—for example, a list of cuisines or music genres, etc.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema: Enumeration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Event -->
+
+
+    <owl:Class rdf:about="http://schema.org/Event">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/EventStatusType -->
+
+
+    <owl:Class rdf:about="http://schema.org/EventStatusType">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Enumeration"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EventStatusType is an enumeration type whose instances represent several states that an Event may be in.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:EventStatusType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/ExhibitionEvent -->
+
+
+    <owl:Class rdf:about="http://schema.org/ExhibitionEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event type: Exhibition event, e.g. at a museum, library, archive, tradeshow, ...</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:ExhibitionEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Festival -->
+
+
+    <owl:Class rdf:about="http://schema.org/Festival">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event type: Festival.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:Festival</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/FoodEvent -->
+
+
+    <owl:Class rdf:about="http://schema.org/FoodEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event type: Food event.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:FoodEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Intangible -->
+
+
+    <owl:Class rdf:about="http://schema.org/Intangible">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Thing"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A utility class that serves as the umbrella for a number of &apos;intangible&apos; things such as quantities, structured values, etc.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:Intangible</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Language -->
+
+
+    <owl:Class rdf:about="http://schema.org/Language">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Intangible"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natural languages such as Spanish, Tamil, Hindi, English, etc. Formal language code tags expressed in &lt;a href=&quot;https://en.wikipedia.org/wiki/IETF_language_tag&quot;&gt;BCP 47&lt;/a&gt; can be used via the &lt;a class=&quot;localLink&quot; href=&quot;http://schema.org/alternateName&quot;&gt;alternateName&lt;/a&gt; property. The Language type previously also covered programming languages such as Scheme and Lisp, which are now best represented using &lt;a class=&quot;localLink&quot; href=&quot;http://schema.org/ComputerLanguage&quot;&gt;ComputerLanguage&lt;/a&gt;.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:Language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/LiteraryEvent -->
+
+
+    <owl:Class rdf:about="http://schema.org/LiteraryEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event type: Literary event.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:LiteraryEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/MusicEvent -->
+
+
+    <owl:Class rdf:about="http://schema.org/MusicEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event type: Music event.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:MusicEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Number -->
+
+
+    <owl:Class rdf:about="http://schema.org/Number">
+        <rdfs:subClassOf rdf:resource="http://schema.org/DataType"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data type: Number.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:Number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Offer -->
+
+
+    <owl:Class rdf:about="http://schema.org/Offer">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Intangible"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An offer to transfer some rights to an item or to provide a service — for example, an offer to sell tickets to an event, to rent the DVD of a movie, to stream a TV show over the internet, to repair a motorcycle, or to loan a book.&lt;/p&gt;
+
+&lt;p&gt;For &lt;a href=&quot;http://www.gs1.org/barcodes/technical/idkeys/gtin&quot;&gt;GTIN&lt;/a&gt;-related fields, see &lt;a href=&quot;http://www.gs1.org/barcodes/support/check_digit_calculator&quot;&gt;Check Digit calculator&lt;/a&gt; and &lt;a href=&quot;http://www.gs1us.org/resources/standards/gtin-validation-guide&quot;&gt;validation guide&lt;/a&gt; from &lt;a href=&quot;http://www.gs1.org/&quot;&gt;GS1&lt;/a&gt;.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:Offer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/OnDemandEvent -->
+
+
+    <owl:Class rdf:about="http://schema.org/OnDemandEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/PublicationEvent"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A publication event e.g. catch-up TV or radio podcast, during which a program is available on-demand.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:OnDemandEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Organization -->
+
+
+    <owl:Class rdf:about="http://schema.org/Organization">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Thing"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organization such as a school, NGO, corporation, club, etc.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:Organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/PerformingGroup -->
+
+
+    <owl:Class rdf:about="http://schema.org/PerformingGroup">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Organization"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A performance group, such as a band, an orchestra, or a circus.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:PerformingGroup</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Person -->
+
+
+    <owl:Class rdf:about="http://schema.org/Person">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Thing"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A person (alive, dead, undead, or fictional).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Place -->
+
+
+    <owl:Class rdf:about="http://schema.org/Place">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Thing"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entities that have a somewhat fixed, physical extension.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:Place</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/PostalAddress -->
+
+
+    <owl:Class rdf:about="http://schema.org/PostalAddress">
+        <rdfs:subClassOf rdf:resource="http://schema.org/ContactPoint"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The mailing address.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:PostalAddress</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/PublicationEvent -->
+
+
+    <owl:Class rdf:about="http://schema.org/PublicationEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A PublicationEvent corresponds indifferently to the event of publication for a CreativeWork of any type e.g. a broadcast event, an on-demand event, a book/journal publication via a variety of delivery media.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:PublicationEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/SaleEvent -->
+
+
+    <owl:Class rdf:about="http://schema.org/SaleEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event type: Sales event.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:SaleEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/ScreeningEvent -->
+
+
+    <owl:Class rdf:about="http://schema.org/ScreeningEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A screening of a movie or other video.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:ScreeningEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/SocialEvent -->
+
+
+    <owl:Class rdf:about="http://schema.org/SocialEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event type: Social event.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:SocialEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/SportsEvent -->
+
+
+    <owl:Class rdf:about="http://schema.org/SportsEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event type: Sports event.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:SportsEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/StructuredValue -->
+
+
+    <owl:Class rdf:about="http://schema.org/StructuredValue">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Intangible"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structured values are used when the value of a property has a more complex structure than simply being a textual value or a reference to another thing.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:StructuredValue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Text -->
+
+
+    <owl:Class rdf:about="http://schema.org/Text">
+        <rdfs:subClassOf rdf:resource="http://schema.org/DataType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/TheaterEvent -->
+
+
+    <owl:Class rdf:about="http://schema.org/TheaterEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event type: Theater performance.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:TheaterEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Thing -->
+
+
+    <owl:Class rdf:about="http://schema.org/Thing">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The most generic type of item.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:Thing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/UserInteraction -->
+
+
+    <owl:Class rdf:about="http://schema.org/UserInteraction">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Check it!!!UserInteraction and its subtypes is an old way of talking about users interacting with pages. It is generally better to use Action-based vocabulary, alongside types such as Comment.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:UserInteraction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/VisualArtsEvent -->
+
+
+    <owl:Class rdf:about="http://schema.org/VisualArtsEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event type: Visual arts event.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:VisualArtsEvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Class -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="http://schema.org/Boolean">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boolean: True or False.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:Boolean</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/Date">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A date value in &lt;a href=&quot;http://en.wikipedia.org/wiki/ISO_8601&quot;&gt;ISO 8601 date format&lt;/a&gt;.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:Date</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/DateTime">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm] (see Chapter 5.4 of ISO 8601).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:DateTime</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/Text">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data type: Text.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:Text</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/description">
+        <schema:rangeIncludes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:Text</schema:rangeIncludes>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The name of the item.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:description</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/doorTime">
+        <schema:rangeIncludes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:DateTime</schema:rangeIncludes>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The time admission will commence.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:doorTime</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/inLanguage">
+        <schema:rangeIncludes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Language</schema:rangeIncludes>
+        <schema:rangeIncludes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:Text</schema:rangeIncludes>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The language of the content or performance or used in an action. Please use one of the language codes from the &lt;a href=&quot;https://tools.ietf.org/html/bcp47&quot;&gt;IETF BCP 47 standard&lt;/a&gt;. See also &lt;a href=&quot;https://schema.org/availableLanguage&quot;&gt;availableLanguage&lt;/a&gt;. Supersedes &lt;a href=&quot;https://schema.org/language&quot;&gt;language&lt;/a&gt;.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:inLanguage</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/isAccessibleForFree">
+        <schema:rangeIncludes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:Boolean</schema:rangeIncludes>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A flag to signal that the item, event, or place is accessible for free. Supersedes &lt;a href=&quot;https://schema.org/free&quot;&gt;free&lt;/a&gt;.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:isAccessibleForFree</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/location">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The location of for example where the event is happening, an organization is located, or where an action takes place.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:location</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/name">
+        <schema:rangeIncludes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:Text</schema:rangeIncludes>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The name of the item.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:name</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/previousStartDate">
+        <schema:rangeIncludes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:DateTime</schema:rangeIncludes>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Used in conjunction with eventStatus for rescheduled or cancelled events. This property contains the previously scheduled start date. For rescheduled events, the startDate property should be used for the newly scheduled start date. In the (rare) case of an event that has been postponed and rescheduled multiple times, this field may be repeated.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:previousStartDate</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/sameAs">
+        <schema:rangeIncludes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:url</schema:rangeIncludes>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URL of a reference Web page that unambiguously indicates the item&apos;s identity. E.g. the URL of the item&apos;s Wikipedia page, Wikidata entry, or official website.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:sameAs</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/startDate">
+        <schema:rangeIncludes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:DateTime</schema:rangeIncludes>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The start date and time of the item &lt;a href=&quot;https://en.wikipedia.org/wiki/ISO_8601&quot;&gt;(in ISO 8601 date format)&lt;/a&gt;.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:startDate</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/typicalAgeRange">
+        <schema:rangeIncludes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:Text</schema:rangeIncludes>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The typical expected age range, e.g. &apos;7-9&apos;, &apos;11-&apos;.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:typicalAgeRange</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/url">
+        <schema:rangeIncludes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:url</schema:rangeIncludes>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">URL of the item.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:url</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/workPerformed">
+        <schema:rangeIncludes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CreativeWork </schema:rangeIncludes>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A work performed in some event, for example a play performed in a TheaterEvent.
+Properties from Thing</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:workPerformed</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://webprotege.stanford.edu/R9G5bmApiOCBQO325bK2r2z">
+        <schema:rangeIncludes rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema:DateTime</schema:rangeIncludes>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The end date and time of the item &lt;a href=&quot;https://en.wikipedia.org/wiki/ISO_8601&quot;&gt;(in ISO 8601 date format)&lt;/a&gt;.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schema.endDate</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/ -->
+
+

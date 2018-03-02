@@ -1,0 +1,232 @@
+{
+  "@context" : {
+    "VisualArtsEvent" : {
+      "@id" : "http://schema.org/VisualArtsEvent"
+    },
+    "TheaterEvent" : {
+      "@id" : "http://schema.org/TheaterEvent"
+    },
+    "CourseInstance" : {
+      "@id" : "http://schema.org/CourseInstance"
+    },
+    "DataType" : {
+      "@id" : "http://schema.org/DataType"
+    },
+    "SocialEvent" : {
+      "@id" : "http://schema.org/SocialEvent"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "startDate" : {
+      "@id" : "http://schema.org/startDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "Organization" : {
+      "@id" : "http://schema.org/Organization"
+    },
+    "Thing" : {
+      "@id" : "http://schema.org/Thing"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+    },
+    "DeliveryEvent" : {
+      "@id" : "http://schema.org/DeliveryEvent"
+    },
+    "MusicEvent" : {
+      "@id" : "http://schema.org/MusicEvent"
+    },
+    "Offer" : {
+      "@id" : "http://schema.org/Offer"
+    },
+    "Class" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#Class"
+    },
+    "Number" : {
+      "@id" : "http://schema.org/Number"
+    },
+    "UserInteraction" : {
+      "@id" : "http://schema.org/UserInteraction"
+    },
+    "domainIncludes" : {
+      "@id" : "http://schema.org/domainIncludes"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "about" : {
+      "@id" : "http://schema.org/about",
+      "@type" : "@id"
+    },
+    "OnDemandEvent" : {
+      "@id" : "http://schema.org/OnDemandEvent"
+    },
+    "Event" : {
+      "@id" : "http://schema.org/Event"
+    },
+    "ChildrensEvent" : {
+      "@id" : "http://schema.org/ChildrensEvent"
+    },
+    "Person" : {
+      "@id" : "http://schema.org/Person"
+    },
+    "ScreeningEvent" : {
+      "@id" : "http://schema.org/ScreeningEvent"
+    },
+    "doorTime" : {
+      "@id" : "http://schema.org/doorTime",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "Date" : {
+      "@id" : "http://schema.org/Date"
+    },
+    "R9G5bmApiOCBQO325bK2r2z" : {
+      "@id" : "http://webprotege.stanford.edu/R9G5bmApiOCBQO325bK2r2z",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "BroadcastEvent" : {
+      "@id" : "http://schema.org/BroadcastEvent"
+    },
+    "FoodEvent" : {
+      "@id" : "http://schema.org/FoodEvent"
+    },
+    "name" : {
+      "@id" : "http://schema.org/name",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "previousStartDate" : {
+      "@id" : "http://schema.org/previousStartDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "ContactPoint" : {
+      "@id" : "http://schema.org/ContactPoint"
+    },
+    "BusinessEvent" : {
+      "@id" : "http://schema.org/BusinessEvent"
+    },
+    "typicalAgeRange" : {
+      "@id" : "http://schema.org/typicalAgeRange",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "StructuredValue" : {
+      "@id" : "http://schema.org/StructuredValue"
+    },
+    "rangeIncludes" : {
+      "@id" : "http://schema.org/rangeIncludes"
+    },
+    "location" : {
+      "@id" : "http://schema.org/location",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "organizer" : {
+      "@id" : "http://schema.org/organizer",
+      "@type" : "@id"
+    },
+    "CreativeWork" : {
+      "@id" : "http://schema.org/CreativeWork"
+    },
+    "SaleEvent" : {
+      "@id" : "http://schema.org/SaleEvent"
+    },
+    "eventStatus" : {
+      "@id" : "http://schema.org/eventStatus",
+      "@type" : "@id"
+    },
+    "PostalAddress" : {
+      "@id" : "http://schema.org/PostalAddress"
+    },
+    "inLanguage" : {
+      "@id" : "http://schema.org/inLanguage"
+    },
+    "workPerformed" : {
+      "@id" : "http://schema.org/workPerformed"
+    },
+    "PublicationEvent" : {
+      "@id" : "http://schema.org/PublicationEvent"
+    },
+    "SportsEvent" : {
+      "@id" : "http://schema.org/SportsEvent"
+    },
+    "Place" : {
+      "@id" : "http://schema.org/Place"
+    },
+    "EducationEvent" : {
+      "@id" : "http://schema.org/EducationEvent"
+    },
+    "DanceEvent" : {
+      "@id" : "http://schema.org/DanceEvent"
+    },
+    "Property" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#Property"
+    },
+    "subEvent" : {
+      "@id" : "http://schema.org/subEvent",
+      "@type" : "@id"
+    },
+    "EventStatusType" : {
+      "@id" : "http://schema.org/EventStatusType"
+    },
+    "Festival" : {
+      "@id" : "http://schema.org/Festival"
+    },
+    "PerformingGroup" : {
+      "@id" : "http://schema.org/PerformingGroup"
+    },
+    "ExhibitionEvent" : {
+      "@id" : "http://schema.org/ExhibitionEvent"
+    },
+    "Text" : {
+      "@id" : "http://schema.org/Text"
+    },
+    "Language" : {
+      "@id" : "http://schema.org/Language"
+    },
+    "sameAs" : {
+      "@id" : "http://schema.org/sameAs",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "Enumeration" : {
+      "@id" : "http://schema.org/Enumeration"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "contributor" : {
+      "@id" : "http://schema.org/contributor",
+      "@type" : "@id"
+    },
+    "Intangible" : {
+      "@id" : "http://schema.org/Intangible"
+    },
+    "isAccessibleForFree" : {
+      "@id" : "http://schema.org/isAccessibleForFree",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "LiteraryEvent" : {
+      "@id" : "http://schema.org/LiteraryEvent"
+    },
+    "description" : {
+      "@id" : "http://schema.org/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "offers" : {
+      "@id" : "http://schema.org/offers",
+      "@type" : "@id"
+    },
+    "DateTime" : {
+      "@id" : "http://schema.org/DateTime"
+    },
+    "performer" : {
+      "@id" : "http://schema.org/performer",
+      "@type" : "@id"
+    },
+    "Boolean" : {
+      "@id" : "http://schema.org/Boolean"
+    }
+  }
+}
