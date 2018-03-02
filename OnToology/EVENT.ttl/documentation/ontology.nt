@@ -1,0 +1,591 @@
+<http://webprotege.stanford.edu/project/CpqnVUDQNXWbMEC5lva7Pv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://schema.org/domainIncludes
+<http://schema.org/domainIncludes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://schema.org/domainIncludes> <http://www.w3.org/2000/01/rdf-schema#label> "schema:domainIncludes" .
+# 
+# http://schema.org/rangeIncludes
+<http://schema.org/rangeIncludes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://schema.org/rangeIncludes> <http://www.w3.org/2000/01/rdf-schema#label> "schema:rangeIncludes" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://schema.org/Boolean
+<http://schema.org/Boolean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# http://schema.org/Date
+<http://schema.org/Date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# http://schema.org/DateTime
+<http://schema.org/DateTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# http://schema.org/Text
+<http://schema.org/Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# http://schema.org/url
+<http://schema.org/url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# http://webprotege.stanford.edu/R8tNoChdCurgfihp0M41QmZ
+<http://webprotege.stanford.edu/R8tNoChdCurgfihp0M41QmZ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://webprotege.stanford.edu/R8tNoChdCurgfihp0M41QmZ> <http://www.w3.org/2000/01/rdf-schema#label> "schema:" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://schema.org/about
+<http://schema.org/about> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/about> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://schema.org/about> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Event> .
+<http://schema.org/about> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Thing> .
+<http://schema.org/about> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject matter of the content.\nInverse property:<a href=\"http://pending.schema.org/subjectOf\">subjectOf</a>." .
+<http://schema.org/about> <http://www.w3.org/2000/01/rdf-schema#label> "schema:about" .
+# 
+# http://schema.org/contributor
+<http://schema.org/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/contributor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://schema.org/contributor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Event> .
+<http://schema.org/contributor> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Organization> .
+<http://schema.org/contributor> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Person> .
+<http://schema.org/contributor> <http://www.w3.org/2000/01/rdf-schema#comment> "A secondary contributor to the CreativeWork or Event." .
+<http://schema.org/contributor> <http://www.w3.org/2000/01/rdf-schema#label> "schema:contributor" .
+# 
+# http://schema.org/description
+<http://schema.org/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/description> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://schema.org/description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Event> .
+<http://schema.org/description> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Text> .
+# 
+# http://schema.org/doorTime
+<http://schema.org/doorTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/doorTime> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://schema.org/doorTime> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Event> .
+<http://schema.org/doorTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/DateTime> .
+# 
+# http://schema.org/eventStatus
+<http://schema.org/eventStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/eventStatus> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://schema.org/eventStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Event> .
+<http://schema.org/eventStatus> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/EventStatusType> .
+<http://schema.org/eventStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "An eventStatus of an event represents its status; particularly useful when an event is cancelled or rescheduled." .
+<http://schema.org/eventStatus> <http://www.w3.org/2000/01/rdf-schema#label> "eventStatus" .
+# 
+# http://schema.org/inLanguage
+<http://schema.org/inLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/inLanguage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://schema.org/inLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Event> .
+<http://schema.org/inLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Language> .
+<http://schema.org/inLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Text> .
+# 
+# http://schema.org/isAccessibleForFree
+<http://schema.org/isAccessibleForFree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/isAccessibleForFree> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://schema.org/isAccessibleForFree> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Event> .
+<http://schema.org/isAccessibleForFree> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Boolean> .
+# 
+# http://schema.org/location
+<http://schema.org/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Event> .
+<http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/PostalAddress> .
+<http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Text> .
+# 
+# http://schema.org/name
+<http://schema.org/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Event> .
+<http://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Text> .
+# 
+# http://schema.org/offers
+<http://schema.org/offers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/offers> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://schema.org/offers> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Event> .
+<http://schema.org/offers> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Offer> .
+<http://schema.org/offers> <http://www.w3.org/2000/01/rdf-schema#comment> "An offer to provide this item\u2014for example, an offer to sell a product, rent the DVD of a movie, perform a service, or give away tickets to an event." .
+<http://schema.org/offers> <http://www.w3.org/2000/01/rdf-schema#label> "schema:offers" .
+# 
+# http://schema.org/organizer
+<http://schema.org/organizer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/organizer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://schema.org/organizer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Event> .
+<http://schema.org/organizer> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Organization> .
+<http://schema.org/organizer> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Person> .
+<http://schema.org/organizer> <http://www.w3.org/2000/01/rdf-schema#comment> "An organizer of an Event." .
+<http://schema.org/organizer> <http://www.w3.org/2000/01/rdf-schema#label> "schema:organizer" .
+# 
+# http://schema.org/performer
+<http://schema.org/performer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/performer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://schema.org/performer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Event> .
+<http://schema.org/performer> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Organization> .
+<http://schema.org/performer> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Person> .
+<http://schema.org/performer> <http://www.w3.org/2000/01/rdf-schema#comment> "A performer at the event\u2014for example, a presenter, musician, musical group or actor. Supersedes <a href=\"https://schema.org/performers\"> performers </a>." .
+<http://schema.org/performer> <http://www.w3.org/2000/01/rdf-schema#label> "schema:performer" .
+# 
+# http://schema.org/previousStartDate
+<http://schema.org/previousStartDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/previousStartDate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://schema.org/previousStartDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Event> .
+<http://schema.org/previousStartDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/DateTime> .
+# 
+# http://schema.org/sameAs
+<http://schema.org/sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/sameAs> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://schema.org/sameAs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Event> .
+<http://schema.org/sameAs> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/url> .
+<http://schema.org/url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://schema.org/startDate
+<http://schema.org/startDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/startDate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://schema.org/startDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Event> .
+<http://schema.org/startDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Date> .
+<http://schema.org/startDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/DateTime> .
+# 
+# http://schema.org/subEvent
+<http://schema.org/subEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/subEvent> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://schema.org/subEvent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Event> .
+<http://schema.org/subEvent> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Event> .
+<http://schema.org/subEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "An Event that is part of this event. For example, a conference event includes many presentations, each of which is a subEvent of the conference. Supersedes <a href=\"https://schema.org/subEvents\"> subEvents </a>." .
+<http://schema.org/subEvent> <http://www.w3.org/2000/01/rdf-schema#label> "schema:subEvent" .
+# 
+# http://schema.org/typicalAgeRange
+<http://schema.org/typicalAgeRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/typicalAgeRange> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://schema.org/typicalAgeRange> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Event> .
+<http://schema.org/typicalAgeRange> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Text> .
+# 
+# http://schema.org/url
+<http://schema.org/url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/url> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://schema.org/url> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Event> .
+# 
+# http://schema.org/workPerformed
+<http://schema.org/workPerformed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://schema.org/workPerformed> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://schema.org/workPerformed> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Event> .
+<http://schema.org/workPerformed> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/CreativeWork> .
+# 
+# http://webprotege.stanford.edu/R9G5bmApiOCBQO325bK2r2z
+<http://webprotege.stanford.edu/R9G5bmApiOCBQO325bK2r2z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://webprotege.stanford.edu/R9G5bmApiOCBQO325bK2r2z> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#Property> .
+<http://webprotege.stanford.edu/R9G5bmApiOCBQO325bK2r2z> <http://www.w3.org/2000/01/rdf-schema#domain> <http://schema.org/Event> .
+<http://webprotege.stanford.edu/R9G5bmApiOCBQO325bK2r2z> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/Date> .
+<http://webprotege.stanford.edu/R9G5bmApiOCBQO325bK2r2z> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/DateTime> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#Property
+<http://www.w3.org/2000/01/rdf-schema#Property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2000/01/rdf-schema#Property> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://schema.org/description
+<http://schema.org/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://schema.org/description> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://schema.org/doorTime
+<http://schema.org/doorTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://schema.org/doorTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# http://schema.org/inLanguage
+<http://schema.org/inLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://schema.org/isAccessibleForFree
+<http://schema.org/isAccessibleForFree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://schema.org/isAccessibleForFree> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://schema.org/location
+<http://schema.org/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://schema.org/name
+<http://schema.org/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://schema.org/previousStartDate
+<http://schema.org/previousStartDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://schema.org/previousStartDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# http://schema.org/sameAs
+<http://schema.org/sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://schema.org/sameAs> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://schema.org/startDate
+<http://schema.org/startDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://schema.org/startDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# http://schema.org/typicalAgeRange
+<http://schema.org/typicalAgeRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://schema.org/typicalAgeRange> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://schema.org/url
+<http://schema.org/url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://schema.org/url> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/url> .
+<http://schema.org/url> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://schema.org/workPerformed
+<http://schema.org/workPerformed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://webprotege.stanford.edu/R9G5bmApiOCBQO325bK2r2z
+<http://webprotege.stanford.edu/R9G5bmApiOCBQO325bK2r2z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/R9G5bmApiOCBQO325bK2r2z> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#Property
+<http://www.w3.org/2000/01/rdf-schema#Property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2000/01/rdf-schema#Property> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://schema.org/Boolean
+<http://schema.org/Boolean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Boolean> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/DataType> .
+# 
+# http://schema.org/BroadcastEvent
+<http://schema.org/BroadcastEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/BroadcastEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/PublicationEvent> .
+<http://schema.org/BroadcastEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "An over the air or online broadcast event." .
+<http://schema.org/BroadcastEvent> <http://www.w3.org/2000/01/rdf-schema#label> "schema:BroadcastEvent" .
+# 
+# http://schema.org/BusinessEvent
+<http://schema.org/BusinessEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/BusinessEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/BusinessEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Event type: Business event." .
+<http://schema.org/BusinessEvent> <http://www.w3.org/2000/01/rdf-schema#label> "schema:BusinessEvent" .
+# 
+# http://schema.org/ChildrensEvent
+<http://schema.org/ChildrensEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/ChildrensEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/ChildrensEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Event type: Children's event." .
+<http://schema.org/ChildrensEvent> <http://www.w3.org/2000/01/rdf-schema#label> "schema:ChildrensEvent" .
+# 
+# http://schema.org/ContactPoint
+<http://schema.org/ContactPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/ContactPoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/StructuredValue> .
+<http://schema.org/ContactPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "A contact point\u2014for example, a Customer Complaints department." .
+<http://schema.org/ContactPoint> <http://www.w3.org/2000/01/rdf-schema#label> "schema:ContactPoint" .
+# 
+# http://schema.org/CourseInstance
+<http://schema.org/CourseInstance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/CourseInstance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/CourseInstance> <http://www.w3.org/2000/01/rdf-schema#comment> "An instance of a <a class=\"localLink\" href=\"http://schema.org/Course\">Course</a> which is distinct from other instances because it is offered at a different time or location or through different media or modes of study or to a specific section of students." .
+<http://schema.org/CourseInstance> <http://www.w3.org/2000/01/rdf-schema#label> "schema:CourseInstance" .
+# 
+# http://schema.org/CreativeWork
+<http://schema.org/CreativeWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/CreativeWork> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Thing> .
+<http://schema.org/CreativeWork> <http://www.w3.org/2000/01/rdf-schema#comment> "The most generic kind of creative work, including books, movies, photographs, software programs, etc." .
+<http://schema.org/CreativeWork> <http://www.w3.org/2000/01/rdf-schema#label> "schema:CreativeWork" .
+# 
+# http://schema.org/DanceEvent
+<http://schema.org/DanceEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/DanceEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/DanceEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Event type: A social dance." .
+<http://schema.org/DanceEvent> <http://www.w3.org/2000/01/rdf-schema#label> "schema:DanceEvent" .
+# 
+# http://schema.org/DataType
+<http://schema.org/DataType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/DataType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://schema.org/DataType> <http://www.w3.org/2000/01/rdf-schema#comment> "The basic data types such as Integers, Strings, etc." .
+<http://schema.org/DataType> <http://www.w3.org/2000/01/rdf-schema#label> "schema:DataType" .
+# 
+# http://schema.org/Date
+<http://schema.org/Date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Date> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/DataType> .
+# 
+# http://schema.org/DateTime
+<http://schema.org/DateTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/DateTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/DataType> .
+# 
+# http://schema.org/DeliveryEvent
+<http://schema.org/DeliveryEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/DeliveryEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/DeliveryEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "An event involving the delivery of an item." .
+<http://schema.org/DeliveryEvent> <http://www.w3.org/2000/01/rdf-schema#label> "schema:DeliveryEvent" .
+# 
+# http://schema.org/EducationEvent
+<http://schema.org/EducationEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/EducationEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/EducationEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Event type: Education event." .
+<http://schema.org/EducationEvent> <http://www.w3.org/2000/01/rdf-schema#label> "schema:EducationEvent" .
+# 
+# http://schema.org/Enumeration
+<http://schema.org/Enumeration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Enumeration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Intangible> .
+<http://schema.org/Enumeration> <http://www.w3.org/2000/01/rdf-schema#comment> "Lists or enumerations\u2014for example, a list of cuisines or music genres, etc." .
+<http://schema.org/Enumeration> <http://www.w3.org/2000/01/rdf-schema#label> "schema: Enumeration" .
+# 
+# http://schema.org/Event
+<http://schema.org/Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Thing> .
+# 
+# http://schema.org/EventStatusType
+<http://schema.org/EventStatusType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/EventStatusType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Enumeration> .
+<http://schema.org/EventStatusType> <http://www.w3.org/2000/01/rdf-schema#comment> "EventStatusType is an enumeration type whose instances represent several states that an Event may be in." .
+<http://schema.org/EventStatusType> <http://www.w3.org/2000/01/rdf-schema#label> "schema:EventStatusType" .
+# 
+# http://schema.org/ExhibitionEvent
+<http://schema.org/ExhibitionEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/ExhibitionEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/ExhibitionEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Event type: Exhibition event, e.g. at a museum, library, archive, tradeshow, ..." .
+<http://schema.org/ExhibitionEvent> <http://www.w3.org/2000/01/rdf-schema#label> "schema:ExhibitionEvent" .
+# 
+# http://schema.org/Festival
+<http://schema.org/Festival> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Festival> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/Festival> <http://www.w3.org/2000/01/rdf-schema#comment> "Event type: Festival." .
+<http://schema.org/Festival> <http://www.w3.org/2000/01/rdf-schema#label> "schema:Festival" .
+# 
+# http://schema.org/FoodEvent
+<http://schema.org/FoodEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/FoodEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/FoodEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Event type: Food event." .
+<http://schema.org/FoodEvent> <http://www.w3.org/2000/01/rdf-schema#label> "schema:FoodEvent" .
+# 
+# http://schema.org/Intangible
+<http://schema.org/Intangible> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Intangible> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Thing> .
+<http://schema.org/Intangible> <http://www.w3.org/2000/01/rdf-schema#comment> "A utility class that serves as the umbrella for a number of 'intangible' things such as quantities, structured values, etc." .
+<http://schema.org/Intangible> <http://www.w3.org/2000/01/rdf-schema#label> "schema:Intangible" .
+# 
+# http://schema.org/Language
+<http://schema.org/Language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Language> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Intangible> .
+<http://schema.org/Language> <http://www.w3.org/2000/01/rdf-schema#comment> "Natural languages such as Spanish, Tamil, Hindi, English, etc. Formal language code tags expressed in <a href=\"https://en.wikipedia.org/wiki/IETF_language_tag\">BCP 47</a> can be used via the <a class=\"localLink\" href=\"http://schema.org/alternateName\">alternateName</a> property. The Language type previously also covered programming languages such as Scheme and Lisp, which are now best represented using <a class=\"localLink\" href=\"http://schema.org/ComputerLanguage\">ComputerLanguage</a>." .
+<http://schema.org/Language> <http://www.w3.org/2000/01/rdf-schema#label> "schema:Language" .
+# 
+# http://schema.org/LiteraryEvent
+<http://schema.org/LiteraryEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/LiteraryEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/LiteraryEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Event type: Literary event." .
+<http://schema.org/LiteraryEvent> <http://www.w3.org/2000/01/rdf-schema#label> "schema:LiteraryEvent" .
+# 
+# http://schema.org/MusicEvent
+<http://schema.org/MusicEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/MusicEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/MusicEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Event type: Music event." .
+<http://schema.org/MusicEvent> <http://www.w3.org/2000/01/rdf-schema#label> "schema:MusicEvent" .
+# 
+# http://schema.org/Number
+<http://schema.org/Number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Number> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/DataType> .
+<http://schema.org/Number> <http://www.w3.org/2000/01/rdf-schema#comment> "Data type: Number." .
+<http://schema.org/Number> <http://www.w3.org/2000/01/rdf-schema#label> "schema:Number" .
+# 
+# http://schema.org/Offer
+<http://schema.org/Offer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Offer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Intangible> .
+<http://schema.org/Offer> <http://www.w3.org/2000/01/rdf-schema#comment> "An offer to transfer some rights to an item or to provide a service \u2014 for example, an offer to sell tickets to an event, to rent the DVD of a movie, to stream a TV show over the internet, to repair a motorcycle, or to loan a book.</p>\n\n<p>For <a href=\"http://www.gs1.org/barcodes/technical/idkeys/gtin\">GTIN</a>-related fields, see <a href=\"http://www.gs1.org/barcodes/support/check_digit_calculator\">Check Digit calculator</a> and <a href=\"http://www.gs1us.org/resources/standards/gtin-validation-guide\">validation guide</a> from <a href=\"http://www.gs1.org/\">GS1</a>." .
+<http://schema.org/Offer> <http://www.w3.org/2000/01/rdf-schema#label> "schema:Offer" .
+# 
+# http://schema.org/OnDemandEvent
+<http://schema.org/OnDemandEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/OnDemandEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/PublicationEvent> .
+<http://schema.org/OnDemandEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "A publication event e.g. catch-up TV or radio podcast, during which a program is available on-demand." .
+<http://schema.org/OnDemandEvent> <http://www.w3.org/2000/01/rdf-schema#label> "schema:OnDemandEvent" .
+# 
+# http://schema.org/Organization
+<http://schema.org/Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Organization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Thing> .
+<http://schema.org/Organization> <http://www.w3.org/2000/01/rdf-schema#comment> "An organization such as a school, NGO, corporation, club, etc." .
+<http://schema.org/Organization> <http://www.w3.org/2000/01/rdf-schema#label> "schema:Organization" .
+# 
+# http://schema.org/PerformingGroup
+<http://schema.org/PerformingGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/PerformingGroup> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Organization> .
+<http://schema.org/PerformingGroup> <http://www.w3.org/2000/01/rdf-schema#comment> "A performance group, such as a band, an orchestra, or a circus." .
+<http://schema.org/PerformingGroup> <http://www.w3.org/2000/01/rdf-schema#label> "schema:PerformingGroup" .
+# 
+# http://schema.org/Person
+<http://schema.org/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Thing> .
+<http://schema.org/Person> <http://www.w3.org/2000/01/rdf-schema#comment> "A person (alive, dead, undead, or fictional)." .
+<http://schema.org/Person> <http://www.w3.org/2000/01/rdf-schema#label> "schema:Person" .
+# 
+# http://schema.org/Place
+<http://schema.org/Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Place> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Thing> .
+<http://schema.org/Place> <http://www.w3.org/2000/01/rdf-schema#comment> "Entities that have a somewhat fixed, physical extension." .
+<http://schema.org/Place> <http://www.w3.org/2000/01/rdf-schema#label> "schema:Place" .
+# 
+# http://schema.org/PostalAddress
+<http://schema.org/PostalAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/PostalAddress> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/ContactPoint> .
+<http://schema.org/PostalAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "The mailing address." .
+<http://schema.org/PostalAddress> <http://www.w3.org/2000/01/rdf-schema#label> "schema:PostalAddress" .
+# 
+# http://schema.org/PublicationEvent
+<http://schema.org/PublicationEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/PublicationEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/PublicationEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "A PublicationEvent corresponds indifferently to the event of publication for a CreativeWork of any type e.g. a broadcast event, an on-demand event, a book/journal publication via a variety of delivery media." .
+<http://schema.org/PublicationEvent> <http://www.w3.org/2000/01/rdf-schema#label> "schema:PublicationEvent" .
+# 
+# http://schema.org/SaleEvent
+<http://schema.org/SaleEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/SaleEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/SaleEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Event type: Sales event." .
+<http://schema.org/SaleEvent> <http://www.w3.org/2000/01/rdf-schema#label> "schema:SaleEvent" .
+# 
+# http://schema.org/ScreeningEvent
+<http://schema.org/ScreeningEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/ScreeningEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/ScreeningEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "A screening of a movie or other video." .
+<http://schema.org/ScreeningEvent> <http://www.w3.org/2000/01/rdf-schema#label> "schema:ScreeningEvent" .
+# 
+# http://schema.org/SocialEvent
+<http://schema.org/SocialEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/SocialEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/SocialEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Event type: Social event." .
+<http://schema.org/SocialEvent> <http://www.w3.org/2000/01/rdf-schema#label> "schema:SocialEvent" .
+# 
+# http://schema.org/SportsEvent
+<http://schema.org/SportsEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/SportsEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/SportsEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Event type: Sports event." .
+<http://schema.org/SportsEvent> <http://www.w3.org/2000/01/rdf-schema#label> "schema:SportsEvent" .
+# 
+# http://schema.org/StructuredValue
+<http://schema.org/StructuredValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/StructuredValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Intangible> .
+<http://schema.org/StructuredValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Structured values are used when the value of a property has a more complex structure than simply being a textual value or a reference to another thing." .
+<http://schema.org/StructuredValue> <http://www.w3.org/2000/01/rdf-schema#label> "schema:StructuredValue" .
+# 
+# http://schema.org/Text
+<http://schema.org/Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Text> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/DataType> .
+# 
+# http://schema.org/TheaterEvent
+<http://schema.org/TheaterEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/TheaterEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/TheaterEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Event type: Theater performance." .
+<http://schema.org/TheaterEvent> <http://www.w3.org/2000/01/rdf-schema#label> "schema:TheaterEvent" .
+# 
+# http://schema.org/Thing
+<http://schema.org/Thing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Thing> <http://www.w3.org/2000/01/rdf-schema#comment> "The most generic type of item." .
+<http://schema.org/Thing> <http://www.w3.org/2000/01/rdf-schema#label> "schema:Thing" .
+# 
+# http://schema.org/UserInteraction
+<http://schema.org/UserInteraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/UserInteraction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/UserInteraction> <http://www.w3.org/2000/01/rdf-schema#comment> "Check it!!!UserInteraction and its subtypes is an old way of talking about users interacting with pages. It is generally better to use Action-based vocabulary, alongside types such as Comment." .
+<http://schema.org/UserInteraction> <http://www.w3.org/2000/01/rdf-schema#label> "schema:UserInteraction" .
+# 
+# http://schema.org/VisualArtsEvent
+<http://schema.org/VisualArtsEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/VisualArtsEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/VisualArtsEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Event type: Visual arts event." .
+<http://schema.org/VisualArtsEvent> <http://www.w3.org/2000/01/rdf-schema#label> "schema:VisualArtsEvent" .
+# 
+# http://www.w3.org/2000/01/rdf-schema#Class
+<http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://schema.org/Boolean> <http://www.w3.org/2000/01/rdf-schema#comment> "Boolean: True or False." .
+<http://schema.org/Boolean> <http://www.w3.org/2000/01/rdf-schema#label> "schema:Boolean" .
+# 
+<http://schema.org/Date> <http://www.w3.org/2000/01/rdf-schema#comment> "A date value in <a href=\"http://en.wikipedia.org/wiki/ISO_8601\">ISO 8601 date format</a>." .
+<http://schema.org/Date> <http://www.w3.org/2000/01/rdf-schema#label> "schema:Date" .
+# 
+<http://schema.org/DateTime> <http://www.w3.org/2000/01/rdf-schema#comment> "A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm] (see Chapter 5.4 of ISO 8601)." .
+<http://schema.org/DateTime> <http://www.w3.org/2000/01/rdf-schema#label> "schema:DateTime" .
+# 
+<http://schema.org/Text> <http://www.w3.org/2000/01/rdf-schema#comment> "Data type: Text." .
+<http://schema.org/Text> <http://www.w3.org/2000/01/rdf-schema#label> "schema:Text" .
+# 
+<http://schema.org/description> <http://schema.org/rangeIncludes> "schema:Text" .
+<http://schema.org/description> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of the item." .
+<http://schema.org/description> <http://www.w3.org/2000/01/rdf-schema#label> "schema:description" .
+# 
+<http://schema.org/doorTime> <http://schema.org/rangeIncludes> "schema:DateTime" .
+<http://schema.org/doorTime> <http://www.w3.org/2000/01/rdf-schema#comment> "The time admission will commence." .
+<http://schema.org/doorTime> <http://www.w3.org/2000/01/rdf-schema#label> "schema:doorTime" .
+# 
+<http://schema.org/inLanguage> <http://schema.org/rangeIncludes> "Language" .
+<http://schema.org/inLanguage> <http://schema.org/rangeIncludes> "schema:Text" .
+<http://schema.org/inLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "The language of the content or performance or used in an action. Please use one of the language codes from the <a href=\"https://tools.ietf.org/html/bcp47\">IETF BCP 47 standard</a>. See also <a href=\"https://schema.org/availableLanguage\">availableLanguage</a>. Supersedes <a href=\"https://schema.org/language\">language</a>." .
+<http://schema.org/inLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "schema:inLanguage" .
+# 
+<http://schema.org/isAccessibleForFree> <http://schema.org/rangeIncludes> "schema:Boolean" .
+<http://schema.org/isAccessibleForFree> <http://www.w3.org/2000/01/rdf-schema#comment> "A flag to signal that the item, event, or place is accessible for free. Supersedes <a href=\"https://schema.org/free\">free</a>." .
+<http://schema.org/isAccessibleForFree> <http://www.w3.org/2000/01/rdf-schema#label> "schema:isAccessibleForFree" .
+# 
+<http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#comment> "The location of for example where the event is happening, an organization is located, or where an action takes place." .
+<http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#label> "schema:location" .
+# 
+<http://schema.org/name> <http://schema.org/rangeIncludes> "schema:Text" .
+<http://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of the item." .
+<http://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#label> "schema:name" .
+# 
+<http://schema.org/previousStartDate> <http://schema.org/rangeIncludes> "schema:DateTime" .
+<http://schema.org/previousStartDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Used in conjunction with eventStatus for rescheduled or cancelled events. This property contains the previously scheduled start date. For rescheduled events, the startDate property should be used for the newly scheduled start date. In the (rare) case of an event that has been postponed and rescheduled multiple times, this field may be repeated." .
+<http://schema.org/previousStartDate> <http://www.w3.org/2000/01/rdf-schema#label> "schema:previousStartDate" .
+# 
+<http://schema.org/sameAs> <http://schema.org/rangeIncludes> "schema:url" .
+<http://schema.org/sameAs> <http://www.w3.org/2000/01/rdf-schema#comment> "URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Wikidata entry, or official website." .
+<http://schema.org/sameAs> <http://www.w3.org/2000/01/rdf-schema#label> "schema:sameAs" .
+# 
+<http://schema.org/startDate> <http://schema.org/rangeIncludes> "schema:DateTime" .
+<http://schema.org/startDate> <http://www.w3.org/2000/01/rdf-schema#comment> "The start date and time of the item <a href=\"https://en.wikipedia.org/wiki/ISO_8601\">(in ISO 8601 date format)</a>." .
+<http://schema.org/startDate> <http://www.w3.org/2000/01/rdf-schema#label> "schema:startDate" .
+# 
+<http://schema.org/typicalAgeRange> <http://schema.org/rangeIncludes> "schema:Text" .
+<http://schema.org/typicalAgeRange> <http://www.w3.org/2000/01/rdf-schema#comment> "The typical expected age range, e.g. '7-9', '11-'." .
+<http://schema.org/typicalAgeRange> <http://www.w3.org/2000/01/rdf-schema#label> "schema:typicalAgeRange" .
+# 
+<http://schema.org/url> <http://schema.org/rangeIncludes> "schema:url" .
+<http://schema.org/url> <http://www.w3.org/2000/01/rdf-schema#comment> "URL of the item." .
+<http://schema.org/url> <http://www.w3.org/2000/01/rdf-schema#label> "schema:url" .
+# 
+<http://schema.org/workPerformed> <http://schema.org/rangeIncludes> "CreativeWork\u00A0" .
+<http://schema.org/workPerformed> <http://www.w3.org/2000/01/rdf-schema#comment> "A work performed in some event, for example a play performed in a TheaterEvent.\nProperties from Thing" .
+<http://schema.org/workPerformed> <http://www.w3.org/2000/01/rdf-schema#label> "schema:workPerformed" .
+# 
+<http://webprotege.stanford.edu/R9G5bmApiOCBQO325bK2r2z> <http://schema.org/rangeIncludes> "schema:DateTime" .
+<http://webprotege.stanford.edu/R9G5bmApiOCBQO325bK2r2z> <http://www.w3.org/2000/01/rdf-schema#comment> "The end date and time of the item <a href=\"https://en.wikipedia.org/wiki/ISO_8601\">(in ISO 8601 date format)</a>." .
+<http://webprotege.stanford.edu/R9G5bmApiOCBQO325bK2r2z> <http://www.w3.org/2000/01/rdf-schema#label> "schema.endDate" .
+# 
+# Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/
